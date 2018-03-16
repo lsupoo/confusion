@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms'
-import { HttpModule } from '@angular/http'
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule } from  '@angular/platform-browser/animations'
-import { MaterialModule } from '@angular/material'
-import { FlexLayoutModule } from '@angular/flex-layout'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from '@angular/material';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 
 
@@ -42,7 +43,8 @@ import { LoginComponent } from './login/login.component';
     HttpModule,
     MaterialModule,
     FlexLayoutModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   entryComponents: [
     LoginComponent
